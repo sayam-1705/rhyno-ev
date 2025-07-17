@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.headingContainer {
+  font-size: 40px;
+  font-weight: 600;
+  padding: 25px 0px;
+  color: #2a2a2a;
+}
+.rentalsContainer {
+  padding: 0px 100px;
+  margin-bottom: 75px;
+}
+.textContent {
+  text-align: start;
+  font-size: 17px;
+  line-height: 35px;
+  color: #5a5a5a;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 50px;
+}
+.divAlingment {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading {
+  font-family: "Poppins", sans-serif !important;
+  font-size: 20px;
+  font-weight: 600;
+  color: #3a3a3a;
+  padding: 10px 0px;
+}
+.link {
+  max-width: max-content;
+  width: 100%;
+  height: auto;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  display: flex;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+.playStore,
+.apppleStore {
+  max-width: 50px;
+  width: 100%;
+  height: auto;
+  margin-right: 5px;
+}
+.apppleStore {
+  padding: 5px;
+}
+.alingment {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+.download {
+  font-family: "Poppins", sans-serif !important;
+  font-size: 10px;
+  margin-top: 5px;
+}
+.store {
+  font-family: "Poppins", sans-serif !important;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: -3px;
+}
+
+@media (max-width: 1000px) {
+  .headingContainer {
+    font-size: 35px;
+  }
+}
+@media (max-width: 800px) {
+  .headingContainer {
+    font-size: 30px;
+  }
+  .textContent {
+    font-size: 14px;
+  }
+}
+@media (max-width: 650px) {
+  .rentalsContainer {
+    padding: 0px 50px;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+    padding-top: 25px;
+  }
+  .divAlingment {
+    padding: 10px 0px;
+  }
+}
+@media (max-width: 315px) {
+  .headingContainer {
+    font-size: 25px;
+  }
+  .rentalsContainer {
+    padding: 0px 30px;
+  }
+  .heading {
+    font-size: 15px;
+  }
+  .download {
+    font-size: 9px;
+    margin-top: 7px;
+  }
+  .store {
+    font-size: 17px;
+    margin-top: 1px;
+  }
+}

@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+
+.map {
+  padding: 50px 0px;
+}
+.mapBox {
+  width: 750px;
+  height: 450px;
+}
+
+.contactUs {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  margin-bottom: 25px;
+}
+.innerBox {
+  display: flex;
+  max-width: 1000px;
+  width: 100%;
+  height: auto;
+  border-radius: 15px !important;
+  background-color: #ededed !important;
+  margin: 0 !important;
+  padding: 30px 15px !important;
+}
+.grid {
+  max-width: 350px;
+  width: 100%;
+  height: auto;
+  padding: 20px 40px;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.address {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.icon {
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+.textContent {
+  font-family: "Lato", sans-serif !important;
+  font-size: 14px;
+  color: rgb(80, 80, 80);
+}
+.widthHandle {
+  padding: 0px 60px;
+}
+.message {
+  padding: 20px 40px;
+  border-left: 1px solid grey;
+}
+.heading {
+  font-size: 25px;
+  font-weight: 800;
+}
+.inputMessage {
+  font-family: "Lato", sans-serif !important;
+  color: rgb(100, 100, 100);
+  outline: none;
+  width: 100%;
+  height: auto;
+  padding: 5px 10px;
+}
+button {
+  font-family: "Lato", sans-serif !important;
+}
+
+@media (max-width: 800px) {
+  .mapBox {
+    width: 650px;
+  }
+}
+@media (max-width: 725px) {
+  .innerBox {
+    flex-direction: column;
+  }
+  .grid {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    grid-template-columns: 1fr;
+    row-gap: 15px;
+  }
+  .message {
+    border: 0;
+  }
+}
+@media (max-width: 700px) {
+  .mapBox {
+    width: 550px;
+  }
+}
+@media (max-width: 600px) {
+  .mapBox {
+    width: 450px;
+    height: 400px;
+  }
+}
+@media (max-width: 500px) {
+  .mapBox {
+    width: 350px;
+    height: 300px;
+  }
+  .widthHandle {
+    padding: 0px 30px;
+  }
+}
+@media (max-width: 450px) {
+  .textContent {
+    font-size: 13px;
+  }
+  .heading {
+    font-size: 20px;
+  }
+}
+@media (max-width: 400px) {
+  .mapBox {
+    width: 250px;
+    height: 200px;
+  }
+  .widthHandle {
+    padding: 0px 10px;
+  }
+}
+@media (max-width: 350px) {
+  .widthHandle {
+    padding: 0px 0px;
+  }
+}
+@media (max-width: 300px) {
+  .mapBox {
+    width: 200px;
+    height: 150px;
+  }
+}

@@ -1,0 +1,9 @@
+.marginTop {
+  height: 75.802px;
+}
+
+@media (max-width: 400px) {
+  .marginTop {
+    height: 60.24px;
+  }
+}

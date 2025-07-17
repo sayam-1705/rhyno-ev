@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+
+.paymentContainer {
+  padding: 50px 150px;
+}
+.innerContainer {
+  margin: 0 !important;
+  border-radius: 20px !important;
+  padding: 25px 50px !important;
+}
+.containerHeading {
+  font-family: "Lato", sans-serif !important;
+  font-size: 40px;
+  font-weight: 900;
+  margin-bottom: 25px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 35px;
+}
+.heading {
+  font-family: "Lato", sans-serif !important;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.inputBox,
+.logoBox {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0px;
+}
+.subHeading {
+  font-family: "Lato", sans-serif !important;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.userInput {
+  font-family: "Lato", sans-serif !important;
+  max-height: 40px;
+  height: 40px;
+  width: auto;
+  padding: 0px 10px;
+  outline: none;
+}
+.cardImage {
+  max-height: 40px;
+  height: 40px;
+  width: auto;
+  padding: 0px 25px;
+}
+.submitButton {
+  margin-top: 25px;
+  font-family: "Lato", sans-serif !important;
+  font-size: 23px;
+  padding: 5px 15px;
+}
+
+@media (max-width: 1100px) {
+  .paymentContainer {
+    padding: 50px 100px;
+  }
+}
+@media (max-width: 950px) {
+  .paymentContainer {
+    padding: 50px 50px;
+  }
+}
+@media (max-width: 850px) {
+  .innerContainer {
+    padding: 25px 25px !important;
+  }
+}
+@media (max-width: 750px) {
+  .innerContainer {
+    padding: 25px 75px !important;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 25px;
+  }
+}
+@media (max-width: 600px) {
+  .innerContainer {
+    padding: 25px 25px !important;
+  }
+}
+@media (max-width: 500px) {
+  .paymentContainer {
+    padding: 50px 25px;
+  }
+}

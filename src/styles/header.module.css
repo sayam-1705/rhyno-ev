@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+.content,
+.dropdownContent,
+.logo,
+.instagram,
+.linkedin {
+  transition: 0.7s;
+}
+.logo:hover,
+.instagram:hover,
+.linkedin:hover {
+  opacity: 0.5;
+}
+.addMargin {
+  margin: 0px 5px;
+}
+.content {
+  color: white;
+  font-family: "Lato", sans-serif !important;
+  font-size: 17px;
+  font-weight: 400;
+}
+.content:hover {
+  color: rgba(128, 128, 128, 0.75);
+}
+.dropdownMenu {
+  background-color: #202020;
+}
+.dropdownContent {
+  color: white;
+  font-family: "Lato", sans-serif !important;
+  font-size: 16px;
+  font-weight: 400;
+}
+.dropdownContent:hover {
+  color: rgba(128, 128, 128, 0.75);
+  background-color: #202020;
+}
+
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #202020;
+  padding: 0px 25px;
+  z-index: 100;
+  transition: 0.7s;
+}
+.logo {
+  width: 175px;
+  margin: 7px 0px;
+}
+.collapseHeader {
+  background-color: rgb(200, 200, 200);
+}
+.middleSection {
+  justify-content: center;
+}
+.socialHandles {
+  display: none;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 27px;
+  margin: 0px 7px;
+}
+.instagram {
+  background: linear-gradient(#feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.linkedin {
+  color: #0077b5;
+}
+
+.changeBackground {
+  background-color: white;
+  transition: 0.7s;
+}
+.changeBackground .content {
+  color: #202020;
+}
+.changeBackground .content:hover {
+  color: grey;
+}
+.changeBackground .dropdownMenu {
+  background-color: white;
+}
+.changeBackground .dropdownContent {
+  color: #202020;
+}
+.changeBackground .dropdownContent:hover {
+  color: grey;
+  background-color: white;
+}
+.changeBackground .collapseHeader {
+  border-color: grey;
+  background-color: transparent;
+}
+
+@media (max-width: 991.34px) {
+  .icons {
+    display: none;
+  }
+  .socialHandles {
+    display: initial;
+    padding-bottom: 10px;
+  }
+}
+@media (max-width: 400px) {
+  .content {
+    font-size: 14px;
+  }
+  .dropdownContent {
+    font-size: 13px;
+  }
+  .container {
+    padding: 0px 10px;
+  }
+  .logo {
+    width: 140px;
+  }
+  .collapseHeader {
+    font-size: 15px;
+  }
+}
