@@ -37,4 +37,4 @@ npm start
 ---
 
 > **Note:**  
-> This project is under active development as part of an internship program.
+> This project is a part of an internship program.
